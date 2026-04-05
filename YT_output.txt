@@ -1,0 +1,54 @@
+category_id|1	2345
+category_id|10	6472
+category_id|15	920
+category_id|17	2174
+category_id|19	402
+category_id|2	384
+category_id|20	817
+category_id|22	3210
+category_id|23	3457
+category_id|24	9964
+category_id|25	2487
+category_id|26	4146
+category_id|27	1656
+category_id|28	2401
+category_id|29	57
+category_id|43	57
+category_id|CENCIONI	7
+category_id|DALESSANDRO’S	4
+comment_count|malformed	11
+comment_count | count	40949
+comment_count | min	0
+comment_count | max	1361580
+comment_count | avg	8446.80
+comments_disabled|FALSE	40316
+comments_disabled|FARFALLE	7
+comments_disabled|TRUE	633
+comments_disabled|WIZ KID	4
+dislikes|malformed	11
+dislikes | count	40949
+dislikes | min	0
+dislikes | max	1674420
+dislikes | avg	3711.40
+likes|malformed	11
+likes | count	40949
+likes | min	0
+likes | max	5613827
+likes | avg	74266.70
+malformed_rows	7737
+ratings_disabled|FALSE	40780
+ratings_disabled|GARGANELLI	7
+ratings_disabled|RALPH AND RICKEY’S	4
+ratings_disabled|TRUE	169
+total_rows	40960
+video_error_or_removed|ANOLINI	7
+video_error_or_removed|FALSE	40926
+video_error_or_removed|PHILIPS	4
+video_error_or_removed|TRUE	23
+views|malformed	11
+views | count	40949
+views | min	549
+views | max	225211923
+views | avg	2360784.64
+video_id | unique_count	6353
+video_id | duplicate_ids	5646
