@@ -8,8 +8,7 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
-public class YTMapper
-    extends Mapper<LongWritable, Text, Text, Text> {
+public class YTMapper extends Mapper<LongWritable, Text, Text, Text> {
 
   @Override
   public void map(LongWritable key, Text value, Context context)
@@ -42,7 +41,6 @@ public class YTMapper
     if (vid.isEmpty()) {
       context.write(new Text("video_id|null"), new Text("1"));
     } else {
-      // emit the id itself as key; reducer counts how many times it appears
       context.write(new Text("video_id|" + vid), new Text("1"));
     }
   }
